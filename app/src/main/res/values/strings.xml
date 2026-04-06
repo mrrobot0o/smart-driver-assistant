@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">inDriver Bot</string>
+    <string name="app_description">Auto-Accept Orders</string>
+    
+    <!-- Accessibility -->
+    <string name="accessibility_service_description">
+        This service monitors the inDriver app and automatically accepts incoming ride orders.
+        It needs accessibility permission to interact with the inDriver interface.
+    </string>
+    
+    <!-- Labels -->
+    <string name="status">Status</string>
+    <string name="orders_accepted">Accepted</string>
+    <string name="orders_missed">Missed</string>
+    <string name="earnings">Earnings</string>
+    
+    <!-- Buttons -->
+    <string name="start_bot">Start Bot</string>
+    <string name="stop_bot">Stop Bot</string>
+    <string name="settings">Settings</string>
+    <string name="statistics">Statistics</string>
+    <string name="grant_permissions">Grant Permissions</string>
+    
+    <!-- Status -->
+    <string name="status_running">🟢 RUNNING</string>
+    <string name="status_stopped">🔴 STOPPED</string>
+    <string name="status_permission_needed">⚠️ PERMISSIONS NEEDED</string>
+    
+    <!-- Settings -->
+    <string name="auto_bid">Auto-Bid</string>
+    <string name="auto_bid_description">Automatically place bids on orders</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_description">Show notifications for accepted orders</string>
+    <string name="min_price">Minimum Price</string>
+    <string name="max_distance">Maximum Distance</string>
+    
+    <!-- Permissions -->
+    <string name="permission_overlay">Overlay Permission</string>
+    <string name="permission_accessibility">Accessibility Permission</string>
+    <string name="permission_overlay_description">Required to show controls over other apps</string>
+    <string name="permission_accessibility_description">Required to interact with inDriver app</string>
+</resources>
