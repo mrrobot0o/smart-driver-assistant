@@ -5,12 +5,5 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-rootProject.name = "AutoAcceptDriver"
+rootProject.name = "SmartDriverAssistant"
 include(":app")
